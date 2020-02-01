@@ -1,0 +1,65 @@
+/*this is background*/
+body {
+    background-color:black;
+    background-image: url(bg1.png);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*this is menu of website, selain pake tag class harus pake tag a juga. karna yg diubah ada didalam tag div*/
+.home a {
+color: crimson;
+font-size: 15px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+font-variant: small-caps;
+}
+
+/*this is heading*/
+h1 {
+    font-size: 70px;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+h2 {
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font: size 40px;
+    color: lightcoral
+}
+/*konten website*/
+body { font-family:'calibri'; }
+
+p{
+color: blanchedalmond;
+word-spacing: 3px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*border-shadow : horizontal vertical blur spread color*/
+img {
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 5px 15px 15px 5px blanchedalmond;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.link1 {
+    color:blanchedalmond;
+    }
+
+
+.cetak-tebal {
+    color: crimson;
+    text-align: right;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}

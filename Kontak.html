@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+ <Head>
+     <Title>Kontak sekolah Coding</Title>
+     <link rel="stylesheet" type="text/css" href="kontak.css">
+ </Head>
+
+ <Body>
+
+    <!-- Menu website-->
+     <div>
+        <a href="Index.html" >Home</a>
+        <a href="Kontak.html">Kontak</a>
+     </div>
+
+     <!-- Bagian awal, isinya tag heading-->
+     <div>  
+      <h1> Kontak Sekolah Coding </h1>
+      <h2> Tutorial Online Untuk Belajar Membuat Website</h2>
+     </div>
+
+     <!-- Membuat Form-->
+     <!--label for & id harus sama agar ketika Namanya diklik bisa nyambung ke kolom-->
+     <fieldset>
+     <legend>Nama & Pesan</legend>
+     <form>
+        <label for="Nama_user">Nama</label>
+        <input Type="text" placeholder="username" id="Nama_user">
+        <br>
+        <label for="Pesan_user">Pesan</label>
+        <textarea Cols="50" Rows="7" id="Pesan_user"> Begini ceritanya... </textarea>
+     </fieldset>
+
+     <fieldset>
+        <legend>Pilihan Data</legend>
+        <br>
+        <label>Hobi :</label> <br>
+        <input type="checkbox" Name="Hobi_User" Value="0"> Menggambar 
+        <input type="checkbox" Name="Hobi_User" Value="1"> Menulis <br>
+        <input type="checkbox" Name="Hobi_User" Value="2" checked> Menyanyi
+        <input type="checkbox" Name="Hobi_User" Value="3"> Puisi
+        <br> <br>
+        <label>Jenis Kelamin :</label> <br>
+        <input type="radio" Name="Gender" Value="0" checked> Laki Laki <br>
+        <input type="radio" Name="Gender" Value="1"> Perempuan
+        <br><br>
+        <label>Pelajaran</label>
+     <select>
+      <optgroup label="Front End">
+        <option>HTML</option>
+        <option>CSS</option>
+      </optgroup>
+      <optgroup label="Back End">
+        <option>PHP</option>
+        <option>Database</option>
+      </optgroup>
+     </select> 
+     <input type="submit" value="Kirim Data">
+     </fieldset>
+     </form>
+     <br><br>
+
+     <table Border="2">
+        <caption>Daftar Siswa</caption>
+        <tr>
+            <th>Nama Murid</th>
+            <th>Kota Asal</th>
+        </tr>
+        <tr>
+            <td>Iman</td>
+            <td>Binjai</td>
+        </tr>
+        <tr>
+            <td>Syahrie</td>
+            <td>Medan</td>
+        </tr>
+     </table >
+
+     <!-- List Pada html-->
+      <ul>
+        <li>Iman</li>
+        <li>Syahrie</li>
+      </ul>
+
+     <ol>
+        <li>Iman</li>
+        <li>Syahrie</li>
+     </ol>
+
+     <dl>
+        <dt>Iman</dt>
+        <dd>Siswa Paling Tampan</dd>
+
+        <dt>Syahrie</dt>
+        <dd>Siswa Paling Biadab</dd>
+     </dl>
+     <br><br><br><br><br><br>
+     <p> &copy; Sekolah Coding </p>
+ </Body>
+</html>

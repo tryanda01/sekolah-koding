@@ -1,0 +1,67 @@
+/*background*/
+body {
+    background-color: black;
+    background-image: url(bg1.png);
+}
+/*menu website*/
+a {
+    color:crimson;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 40px;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 25px;
+    color: lightcoral;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+legend {
+    color: lightcoral;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+
+fieldset { color: blanchedalmond;}
+label { color: blanchedalmond;}
+caption { 
+    color: lightcoral;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+::placeholder {
+    color: black;
+}
+
+th { color: lightcoral;}
+textarea { color:black;}
+input { color:lightcoral;}
+optgroup { color: black;}
+option { color:black;}
+table { color: blanchedalmond;}
+label {color: lightcoral;}
+ul { color: blanchedalmond;}
+ol { color: blanchedalmond;}
+dl { color: blanchedalmond;}
+dt {color: lightcoral;}
+p {
+    font-variant: small-caps;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: crimson;
+    
+}
