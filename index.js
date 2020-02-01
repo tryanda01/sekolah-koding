@@ -1,4 +1,4 @@
 //pop up box
-alert(halo dunia!)
+alert(halo dunia!!!)
 
 //prompt('masukkan nama anda');
